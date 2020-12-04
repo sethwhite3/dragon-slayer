@@ -19,7 +19,6 @@ var BootScene = new Phaser.Class({
         
         // enemies
         this.load.image("dragonblue", "assets/dragonblue.png");
-        this.load.image("dragonorrange", "assets/dragonorrange.png");
         
         // our characters
         this.load.spritesheet('player', 'assets/RPG_assets.png', { frameWidth: 16, frameHeight: 16 });
